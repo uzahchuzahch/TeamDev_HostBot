@@ -48,7 +48,7 @@ import requests
 import html
 import docker as docker_sdk
 
-BOT_TOKEN  = "8174276558:AAEbmZAvJLpEpHAEUbLDIkhHzdmAKFjvHjM"
+BOT_TOKEN  = "8174276558:AAEbmZAvJLpEpHAEUbLDIkhHzdmAKFjvHjM".strip()
 MONGODB_URI = "mongodb+srv://royalitybots_db_user:948Ptb7Toysx8cd7@cluster0.o2wmbpm.mongodb.net/?appName=Cluster0"
 LOG_CHANNEL_ID = -1003386075651
 OWNER_ID   = 8422190094
